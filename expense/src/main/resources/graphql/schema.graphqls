@@ -1,0 +1,29 @@
+type Query {
+    getHealth: Health
+
+    getAllExpenses: [Expense!]
+    getExpensesByUserId(userId: Int!): [Expense!]
+}
+
+type Mutation {
+    insertExpense(expense: ExpenseInput!): Expense
+}
+
+type Health {
+    status: String
+}
+
+type Expense {
+    id: ID!
+    userId: ID!
+    amount: Float
+    type: String
+    expenseDate: String
+    createdDate: String
+    modifiedDate: String
+}
+
+input ExpenseInput {
+    amount: Float!
+    type: String!
+}
