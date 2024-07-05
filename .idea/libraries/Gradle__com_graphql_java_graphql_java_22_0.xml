@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.graphql-java:graphql-java:22.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.graphql-java" artifactId="graphql-java" version="22.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphql-java/graphql-java/22.0/faf262edab4c4cc76d2f3294de5cf35ebb5c3187/graphql-java-22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphql-java/graphql-java/22.0/8c69ff811093a891bf28dd30c4a51ffa9e6dd73a/graphql-java-22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

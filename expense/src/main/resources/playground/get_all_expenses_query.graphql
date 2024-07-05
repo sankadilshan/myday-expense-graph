@@ -1,0 +1,11 @@
+query GET_ALL_EXPENSES {
+    getAllExpenses {
+        userId
+        amount
+        expenseDate
+        type
+        expenseDate
+        createdDate
+        modifiedDate
+    }
+}

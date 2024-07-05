@@ -1,0 +1,26 @@
+server.port: 8082
+spring:
+  application:
+    name: expense-graph
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+  devtools:
+    restart:
+      enabled: true
+graphql:
+  servlet:
+    maxQueryDepth: 5
+    exception-handlers-enabled: true
+  playground:
+    headers:
+      Authorization: Bearer TOKEN
+    tabs:
+      - name: Get All Expenses
+        query: classpath:playground/get_all_expenses_query.graphql
+myday:
+  service:
+    url: http://localhost:8081
+    expense:
+      path: /api/v1/expense/

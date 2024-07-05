@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-graphql:3.3.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.springframework.boot" artifactId="spring-boot-starter-graphql" version="3.3.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-graphql/3.3.0/ffd85b985137324d39838e997a11117bfc77c83c/spring-boot-starter-graphql-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-graphql/3.3.0/ce28111b000f318d8df817495725d82388b727f3/spring-boot-starter-graphql-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
